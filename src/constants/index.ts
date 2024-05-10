@@ -55,11 +55,11 @@ export const NAV_LINKS = [
     title: "Contact",
     link: null,
   },
-  {
-    id: "source-code",
-    title: "Source Code",
-    link: "http://www.github.com/sanidhyy/3d-portfolio/",
-  },
+  // {
+  //   id: "source-code",
+  //   title: "Source Code",
+  //   link: "http://www.github.com/sanidhyy/3d-portfolio/",
+  // },
 ] as const;
 
 // Services
@@ -78,6 +78,14 @@ export const SERVICES = [
   },
   {
     title: "AR / VR",
+    icon: creator,
+  },
+  {
+    title: "Game Design",
+    icon: creator,
+  },
+  {
+    title: "3D Architecture & Interior Design",
     icon: creator,
   },
 ] as const;
